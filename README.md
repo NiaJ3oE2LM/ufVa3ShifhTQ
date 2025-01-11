@@ -1,4 +1,4 @@
-![Generic badge](https://img.shields.io/badge/Contributions-welcomed-GREEN.svg) ![Generic badge](https://img.shields.io/badge/Status-WIP-yellow.svg) ![](https://img.shields.io/badge/Language-Python-blue.svg) ![] ![] ![](https://img.shields.io/badge/Configuration-TOML-lightblue.svg)
+![Generic badge](https://img.shields.io/badge/Contributions-welcomed-GREEN.svg) ![Generic badge](https://img.shields.io/badge/Status-WIP-yellow.svg) ![](https://img.shields.io/badge/Language-Python-blue.svg) ![](https://img.shields.io/badge/Configuration-TOML-lightblue.svg)
 
 # A solution to a common problem
 
@@ -6,7 +6,7 @@ Are you tired of listening to ads on the radio or on the TV during your *preciou
 
 ## Features
 
-This program makes use of [RSS](https://en.wikipedia.org/wiki/RSS) news feeds to get access to up-to-date information on  topics of your choice, aggregates a daily script with all the contents you might have read ( If you had the time), summarises the aggregated contents through [LLM](https://en.wikipedia.org/wiki/Large_language_model),  and converts the summary into a podcast-like audio that you can listen to when you find the time (for example during your daily commute, while you cook, or while you do the laundry).
+This program makes use of [RSS](https://en.wikipedia.org/wiki/RSS) news feeds to get access to up-to-date information on  topics of your choice, aggregates a daily script with all the contents you might have read (if you had the time), summarises the aggregated contents through [LLM](https://en.wikipedia.org/wiki/Large_language_model) technology, and converts the summary into a podcast-like audio that you can listen to when you find the time (for example during your daily commute, while you cook, or while you do the laundry).
 
 Features highlight:
 
@@ -18,7 +18,7 @@ Features highlight:
 
 + *serve* the output podcast through a standard RSS service so that you can stream the summary with your favourite podcast app;
 
-+ include source articles references in podcast shownotes with clickable links pointing to the original, source website.
++ include source articles references in podcast shownotes pointing to the original, source website.
 
 ## Known limitations
 
@@ -36,11 +36,11 @@ Language limitations also come into play, for example:
 
 + most of the cutting edge development of LLM technology is being done primarily in English language, therefore, depending on the popularity of your local language, a dedicated LLM may not be available;
 
-+ translation to English may introduce errors and the contents
++ translation to English may introduce errors and alter the contents provided by the original source
 
 Open issues under discussion:
 
-* if the same news is published under similar text on different RSS sources, then the LLM will have a hard time distinguish the two and will likely include the 
+* if the same news is published under similar text on different RSS sources, then the LLM will have a hard time distinguish the two 
 
 ## Disclaimer
 
@@ -62,7 +62,7 @@ Once the content of each news is available in plain English, the following **sum
 
 * summarise then aggregate. Limit the length of each summary so that it is compatible with target podcast duration. Possibly compare summaries to spot similar news and include only once. The output audio may lack continuity in the formulation of the sentences but, this method allows precise link to source website.
 
-When the summary and shownotes have been produces, the body of the summary can be read into a podcast though [TTS](https://en.wikipedia.org/wiki/Speech_synthesis) technology.
+When the summary and shownotes have been produced, the body of the summary can be read into a podcast though [TTS](https://en.wikipedia.org/wiki/Speech_synthesis) technology and served on a pubic IP.
 
 ## Dependencies and building blocks
 
