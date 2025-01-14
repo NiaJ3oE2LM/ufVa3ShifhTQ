@@ -1,0 +1,11 @@
+[try-1]
+url = "https://www.ansa.it/sito/ansait_rss.xml"
+name = "ANSA (Homepage)"
+max_samples = 10
+modes = ["base"]
+
+[try-2]
+url = "https://xml2.corriereobjects.it/feed-hp/homepage.xml"
+name = "Corriere della Sera (Home)"
+max_samples = 10
+modes = ["base"]

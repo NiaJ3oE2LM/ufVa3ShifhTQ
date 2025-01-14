@@ -1,0 +1,5 @@
+[base]
+# number of articles to aggregate for each source 
+num_articles = 4
+# article selection, one of : date, random, ...
+article_priority = "date"
